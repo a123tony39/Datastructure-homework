@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main(){
+    //宣告變數
     int n;
+    //讀取資料直到檔案結尾
     while(scanf("%d",&n)!=EOF){
+        //若在各自的月份則印出
         if(n>2&&n<6){
             printf("Spring\n");
         }
